@@ -1,15 +1,15 @@
-import React from 'react';
+import Sidebar from 'components/SideBar';
+import CenterSection from 'components/CenterSection';
+import { RightSection } from 'components/RightSection';
 import * as S from './styles';
 
-const ExampleTemplate = () => {
+const HomePage = () => {
     return (
         <S.Container>
-            <S.ContentWrapper>
-                <S.Title>Treinamento Introdutório de Front</S.Title>
-                <S.Comment>Template criado em Abril de 2025</S.Comment>
-                <S.Description>Template criado por Moizés Ávila</S.Description>
-            </S.ContentWrapper>
+            <Sidebar />
+            <CenterSection />
+            <RightSection />
         </S.Container>
     );
 };
-export default ExampleTemplate;
+export default HomePage;
