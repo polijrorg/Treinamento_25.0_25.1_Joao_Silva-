@@ -87,8 +87,7 @@ export const Logout = styled.div`
     font-size: 1rem;
     padding: 0.5rem;
     cursor: pointer;
-    color: #e11d48;
-    align-items: center;
+    align-self: center;
     svg {
         width: 20px;
         height: 20px;
@@ -103,9 +102,9 @@ export const ExitIcon = styled.img`
     width: 20px;
     height: 20px;
     object-fit: contain;
+    background: linear-gradient(135deg, hsl(205, 45%, 8.6%) 0%, #151718 100%);
 `;
 export const Button = styled.button`
-    background-color: var(--Slate-8, #4c5155);
     border: none;
     cursor: pointer;
     font-weight: bold;
