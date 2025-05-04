@@ -21,8 +21,8 @@ export const Post: React.FC<PostProps> = ({
     content,
     time,
     comments,
-    likes = 0,
-    shares = 0,
+    likes = 1,
+    shares = 14,
     onComment,
     onLike,
     onShare

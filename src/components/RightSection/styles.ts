@@ -7,6 +7,7 @@ export const Container = styled.aside`
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    height: 100%;
 `;
 
 export const SearchInput = styled.input`

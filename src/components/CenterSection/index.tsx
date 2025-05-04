@@ -10,7 +10,7 @@ const CenterSection = () => {
                 <S.SIimage src="assets/images/ci_search.png" />
             </S.SectionSI>
             <S.SectionPiuBox>
-                <S.PiuBox placeholder="Quero dar um piu..." rows={3} />
+                <S.PiuBox placeholder="Quero dar um piu..." />
                 <S.SectionPiuBoxAux>
                     <S.PiuActions>
                         <S.SendButton>

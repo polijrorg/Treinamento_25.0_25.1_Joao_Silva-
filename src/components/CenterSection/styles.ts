@@ -46,18 +46,18 @@ export const SectionPiuBoxAux = styled.div`
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 0.5rem;
     margin-top: 20px;
     border-radius: 16px 16px;
     background: var(--Slate-8, #4c5155);
     align-items: left;
 `;
-export const PiuBox = styled.textarea`
+export const PiuBox = styled.input`
     padding: 2rem;
     color: white;
     background: var(--Slate-8, #4c5155);
     width: 100%;
     border: none;
+    height: 5rem;
     border-radius: 16px 16px;
 `;
 export const PImage = styled.img`

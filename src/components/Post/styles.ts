@@ -8,7 +8,6 @@ export const Container = styled.div`
     border-radius: ${({ theme }) => theme.radii.md}px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 16px;
-
     display: flex;
     flex-direction: row;
     gap: 12px;
@@ -16,6 +15,7 @@ export const Container = styled.div`
     &:hover {
         background-color: ${({ theme }) => theme.colors.slate4};
     }
+    width: 100%;
 `;
 
 export const Avatar = styled.div`

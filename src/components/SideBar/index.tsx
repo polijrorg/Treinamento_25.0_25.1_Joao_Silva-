@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeIcon, BellIcon, GearIcon, ExitIcon } from '@radix-ui/react-icons';
+import { HomeIcon, BellIcon, GearIcon } from '@radix-ui/react-icons';
 import * as S from './styles';
 
 const Sidebar = () => {
@@ -45,7 +45,9 @@ const Sidebar = () => {
                 </S.NavItem>
             </S.Nav>
             <S.Logout>
-                <ExitIcon /> Sair
+                <S.Button>
+                    <S.ExitIcon src="assets/images/Log_Out.png" />
+                </S.Button>
             </S.Logout>
         </S.Container>
     );

@@ -88,7 +88,7 @@ export const Logout = styled.div`
     padding: 0.5rem;
     cursor: pointer;
     color: #e11d48;
-
+    align-items: center;
     svg {
         width: 20px;
         height: 20px;
@@ -97,4 +97,22 @@ export const Logout = styled.div`
     &:hover {
         background-color: #1f2937;
     }
+`;
+
+export const ExitIcon = styled.img`
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+`;
+export const Button = styled.button`
+    background-color: var(--Slate-8, #4c5155);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: auto;
+    border-radius: 16px 16px 16px 16px;
+    :hover {
+        background: var(--Indigo-9, #3e63dd);
+    }
+    align-items: center;
 `;
